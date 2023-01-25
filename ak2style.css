@@ -1,0 +1,96 @@
+:root {
+    
+
+    --lightblue: #25dfe6;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #b4b4b4;
+    --lightgray: #f5f5f5;
+    --darkgray: #707070;
+    --maxwidth: 1200px;
+    --rootsize: 20px;
+}
+
+body {
+    background-color: var(--white);
+    font-size: var(--rootsize);
+    font-family: Arial;
+    color: var(--darkgray);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.ressursarkiv {
+    border-style: solid;
+    border-color: var(--gray);
+    padding: 3rem;
+    padding-left: 2rem;
+    font-size: xx-large;
+    
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    font-size: x-large;
+
+}
+
+span {
+    border-style: ridge;
+    padding: 1.2rem;
+    margin-right: 1rem;
+    background-color: var(--lightgray);
+    
+    
+}
+.selected {
+    border-style: solid;
+    background-color: var(--lightblue);
+    border-color: var(--lightblue);
+    color: var(--white);
+  
+    
+}
+
+.info {
+    border-style: solid;
+    border-color: var(--gray);
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 30rem;
+    padding-bottom: 10rem;  
+    border-top: var(--lightblue);
+    border-top: 0px;
+    box-shadow: 0 -5px 0 0 var(--lightblue);
+    display: inline-block;
+}
+
+.navlink {
+    background-color: var(--white);
+}
+a:link {
+    color: var(--lightblue);}
+
+a:hover {
+    color: var(--darkgray);
+      }
+a:visited {
+    color: var(--gray);
+  }
+
+a:active {
+    color: var(--darkgray);
+  }
+
+nav :hover {
+    background-color: var(--lightblue);
+    border-style: solid;
+    border-color: var(--lightblue);
+    color: var(--white);
+    }
